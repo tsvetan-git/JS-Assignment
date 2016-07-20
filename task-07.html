@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS HW task-07</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="task-07.js"></script>   
+    </head>
+    <body>
+        <h2>Task-07</h2>	
+    <form>
+        <label for="number">Convert</label>
+        <input type="text" name="number" id="number">
+        <select name="from" id="convertFrom">
+            <option value="kg">kg</option>
+            <option value="lb">lb</option>
+        </select>
+        <select name="to" id="convertTo">
+            <option value="kg">kg</option>
+            <option selected value="lb">lb</option>
+        </select>        
+        <button type="button" onclick="convert()">Calculate</button>       	
+    </form>
+        <div>
+            <span>Result: </span>
+            <span id="result"></span>
+        </div>
+    </body>
+</html>
